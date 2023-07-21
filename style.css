@@ -1,0 +1,292 @@
+/* Start coding here */
+
+html {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin-bottom: 200px;
+    background: #FFF;
+}
+
+.header {
+text-align: center;
+font-size: 30px;
+font-weight: 700;
+color: #183B56;
+transition: transform .5s;
+}
+
+.header-box {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.item-1 {
+    margin-top: 20px;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    width:200px;
+    height: 150px;
+    margin:10px;
+    border: 1px solid #EDEDED;
+    border-radius: 5px;
+    background: #FFF;
+    transition: transform .2s;
+    cursor: pointer;
+}
+
+.box-8 {
+    background-color: #FF8345;
+    
+    border-radius: 8px;
+}
+
+.vector {
+  position: absolute;
+}
+
+.box-3 {
+  background: #d0d2d63d;
+}
+
+/* error vectors class
+.vector-1 {
+  width: 150px;
+  height: 40px;
+  margin-left: 20%;
+  
+}
+
+.vector-2 {
+  width: 170px;
+  height: 75px;
+  margin-left: 10%;
+  margin-top: -150px;
+}
+*/
+
+@media only screen and (max-width: 900px) {
+  .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-box {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+}
+
+@media only screen and (min-width: 200px) and (max-width: 900px) {
+    .header-box {
+      margin: auto;
+      width: 80%;
+      padding: 10px;
+      text-align: center;
+      margin-top: 100px;
+    }
+  
+  }
+
+  .box1 {
+    position: absolute;
+  }
+
+  /* icon มีหลายคลาสเนื่องจากรูปที่บันทึกมารูปแบบและไซส์ต่างกัน*/
+
+  .container-icon {
+    height: 40px;
+    width: 40px;
+    background-color: hsla(20, 100%, 80%, 0.365);
+    border-radius: 50px;
+    position: relative;
+    margin-top: 16px;
+    margin-left: 16px;
+  }
+
+  .icon-1 {
+    height: 40px;
+    width: 40px;
+   
+    border-radius: 50px;
+    position: relative;
+    margin-top: 16px;
+    margin-left: 16px;
+  }
+
+  .icon-2 {
+    height : 20px;
+    width: 20px;
+    border-radius: 50px;
+    position: relative;
+    top:10px;
+    left: 10px;
+  }
+
+  .container-icon-3 {
+    height: 40px;
+    width: 40px;
+    background-color:#FF8345;
+    border-radius: 50px;
+    position: relative;
+    margin-top: 16px;
+    margin-left: 16px;
+    box-shadow: 0px 5px 5px #88888849;
+  }
+
+  .icon-3 {
+    height : 20px;
+    width: 20px;
+    border-radius: 50px;
+    position: relative;
+    top:10px;
+    left: 9px;
+  }
+
+  .icon-4 {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    position: relative;
+    margin-top: 16px;
+    margin-left: 16px;
+  }
+
+  .icon-5 {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    position: relative;
+    margin-top: 16px;
+    margin-left: 16px;
+  }
+
+  .icon-6 {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    position: relative;
+    margin-top: 16px;
+    margin-left: 16px;
+  }
+
+  .icon-7 {
+    height : 20px;
+    width: 20px;
+    border-radius: 50px;
+    position: relative;
+    top:10px;
+    left: 10px;
+  }
+
+  .text-content {
+    position: relative;
+    right: 40px;
+    top: 85px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #183B56 ;
+  }
+
+  .detail-text {
+    position: relative;
+    margin-left: -35px;
+    top: 75px;
+    right: 5px;
+    font-size: 10px;
+    color:#5A7184;
+  }
+
+  .text {
+    margin-top: -10px;
+  }
+
+  button {
+    background-color: #183b561e;
+    border: #d0d7dd;
+    border-radius: 50px;
+    width: 20px;
+    height: 10px;
+    font-size: 5px;
+    position: relative;
+    top:46px;
+    left:100px;
+  }
+
+  .text-content-accounting {
+    position: relative;
+    right: 40px;
+    top: 85px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #183B56 ;
+  }
+
+  .detail-text-accounting {
+    position: relative;
+    margin-left: -35px;
+    top: 75px;
+    right: 5px;
+    font-size: 10px;
+    color:#5A7184;
+  }
+
+  .text-accounting {
+    margin-top: -10px;
+  }
+
+.box-8-detail {
+  width: 50%;
+  height: 50%;
+  position: relative;
+  top:20px;
+  left: 30px;
+  text-align: left;
+  color: #ffffff;
+  text-shadow: 4px 4px 4px #0000007e;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between ;
+}
+
+.arrow-right-white {
+  width:13px;
+  height:10px;
+  margin-left: 40px;
+  margin-top: 70px;
+}
+
+.arrow {
+    width: 10px;
+    height:10px;
+    margin-left: 110px;
+    margin-top: 52px;
+}
+
+.header:hover {
+  transform: scale(1.1); 
+}
+
+.box:hover {
+  transform: scale(1.1); 
+}
